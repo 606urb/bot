@@ -32,7 +32,7 @@ public class BoburBot extends TelegramLongPollingBot {
             SendPhoto sendPhoto = new SendPhoto();
             sendPhoto.setChatId(islom.getChatId());
             sendPhoto.setPhoto(new InputFile(fileId));
-            sendPhoto.setCaption(caption + " mani ismim Bobur chundin");
+            sendPhoto.setCaption(caption + " mani madur ismim Bobur chundin");
 
             try {
                 execute(sendPhoto);
